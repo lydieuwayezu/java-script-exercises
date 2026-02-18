@@ -115,6 +115,26 @@ console.log("Reversed:", reversed);
 
 
 
+let arr1 = ["A","B"];
+let arr2 = ["C","D"];
+let sentenceParts = ["Hello","world","this","is","great"];
+
+let combined = arr1.concat(arr2);
+console.log(combined);
+
+console.log(sentenceParts.join(" "));
+
+console.log(sentenceParts.slice(1,4));
+
+
+
+
+
+
+
+
+
+
 
 
 
