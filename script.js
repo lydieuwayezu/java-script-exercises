@@ -133,6 +133,10 @@ console.log(sentenceParts.slice(1,4));
 
 
 
+let nestedList = [1,[2,3],[4,[5,6]],7];
+
+console.log(nestedList.flat());
+console.log(nestedList.flat(Infinity));
 
 
 
