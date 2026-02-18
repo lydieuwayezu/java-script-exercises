@@ -65,6 +65,18 @@ console.log(studentNames.includes("Eve"));
 
 
 
+let products = [
+  {id:1, name:"Laptop", price:1200},
+  {id:2, name:"Mouse", price:25},
+  {id:3, name:"Keyboard", price:75}
+];
+
+let found = products.find(p => p.id === 2);
+console.log(found);
+
+let index = products.findIndex(p => p.price > 1000);
+console.log(index);
+
 
 
 
