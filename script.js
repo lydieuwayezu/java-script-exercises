@@ -36,4 +36,33 @@ console.log("After splice:", inventory);
 
 
 
+let originalScores = [90, 85, 78];
+let referenceCopy = originalScores;
+
+referenceCopy[0] = 100;
+console.log("Original:", originalScores);
+console.log("Reference:", referenceCopy);
+
+
+let spreadCopy = [...originalScores];
+spreadCopy[2] = 50;
+
+console.log("Original:", originalScores);
+console.log("Spread copy:", spreadCopy);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
