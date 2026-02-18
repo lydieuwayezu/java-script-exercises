@@ -98,6 +98,25 @@ console.log(userAges.some(age => age % 5 === 0));
 
 
 
+let dataPoints = [42, 10, 500, 2, 77];
+
+let asc = [...dataPoints].sort((a,b)=>a-b);
+console.log("Ascending:", asc);
+
+let desc = [...dataPoints].sort((a,b)=>b-a);
+console.log("Descending:", desc);
+
+let reversed = [...dataPoints].reverse();
+console.log("Reversed:", reversed);
+
+
+
+
+
+
+
+
+
 
 
 
