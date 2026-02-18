@@ -141,6 +141,18 @@ console.log(nestedList.flat(Infinity));
 
 
 
+let pricesUSD = [10.50, 20.00, 5.25];
+
+let local = pricesUSD.map(p => p * 1.3);
+console.log(local);
+
+let strings = pricesUSD.map(p => `Item price: $${p.toFixed(2)}`);
+console.log(strings);
+
+
+
+
+
 
 
 
