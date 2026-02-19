@@ -258,6 +258,23 @@ console.log("Top:", top);
 
 
 
+let data = [1,5,2,8,5,1,9,2];
+
+let uniqueData = data.filter((v,i)=> data.indexOf(v)===i);
+console.log(uniqueData);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
