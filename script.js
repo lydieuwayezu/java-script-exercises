@@ -197,6 +197,17 @@ console.log(users);
 
 
 
+let names = users.map(u => u.name);
+console.log(names);
+
+let older = users.filter(u => u.age > 28);
+console.log(older);
+
+
+
+
+
+
 
 
 
