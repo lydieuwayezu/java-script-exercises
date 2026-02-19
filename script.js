@@ -238,6 +238,29 @@ console.log("Sum:", sum);
 
 
 
+let students = [
+ {name:"A", score:85},
+ {name:"B", score:45},
+ {name:"C", score:92},
+ {name:"D", score:68}
+];
+
+let passed = students.filter(s => s.score >= 70);
+console.log(passed);
+
+let avgScore = students.reduce((a,s)=>a+s.score,0)/students.length;
+console.log("Average:", avgScore);
+
+let top = students.reduce((best,s)=> s.score>best.score?s:best);
+console.log("Top:", top);
+
+
+
+
+
+
+
+
 
 
 
