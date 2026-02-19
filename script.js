@@ -289,6 +289,24 @@ console.log(myReduce([1,2,3,4], (a,b)=>a+b, 0));
 
 
 
+let company = [{name:"A", details:{city:"NY"}}];
+
+let shallow = [...company];
+shallow[0].details.city = "LA";
+
+console.log(company);
+console.log(shallow);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
