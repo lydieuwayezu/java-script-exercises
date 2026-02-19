@@ -179,6 +179,24 @@ console.log("Count >15:", count);
 
 
 
+let users = [
+  {name:"Zoe", age:30},
+  {name:"Adam", age:25},
+  {name:"Charlie", age:30}
+];
+
+users.sort((a,b)=>a.age-b.age);
+console.log(users);
+
+users.sort((a,b)=>{
+  if(a.age===b.age) return a.name.localeCompare(b.name);
+  return a.age-b.age;
+});
+console.log(users);
+
+
+
+
 
 
 
