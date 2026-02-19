@@ -153,6 +153,20 @@ console.log(strings);
 
 
 
+let testScores = [45, 78, 92, 30, 65, 88];
+
+let passing = testScores.filter(s => s >= 70);
+console.log(passing);
+
+let avg = testScores.reduce((a,b)=>a+b,0)/testScores.length;
+let belowAvg = testScores.filter(s => s < avg);
+console.log("Average:", avg);
+console.log("Below avg:", belowAvg);
+
+
+
+
+
 
 
 
