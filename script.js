@@ -166,6 +166,18 @@ console.log("Below avg:", belowAvg);
 
 
 
+let total = pricesUSD.reduce((sum,p)=>sum+p,0);
+console.log("Total:", total);
+
+let max = pricesUSD.reduce((m,p)=> p>m?p:m);
+console.log("Max:", max);
+
+let count = pricesUSD.reduce((c,p)=> p>15?c+1:c,0);
+console.log("Count >15:", count);
+
+
+
+
 
 
 
