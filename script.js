@@ -207,6 +207,19 @@ console.log(older);
 
 
 
+let gameBoard = [
+  [0,0,0],
+  [0,0,0],
+  [0,0,0]
+];
+
+gameBoard[1][1] = 1;
+console.log(gameBoard[0][2]);
+
+
+
+
+
 
 
 
