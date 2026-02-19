@@ -267,6 +267,23 @@ console.log(uniqueData);
 
 
 
+function myReduce(array, callback, initialValue){
+  let acc = initialValue;
+  for(let i=0;i<array.length;i++){
+    acc = callback(acc, array[i]);
+  }
+  return acc;
+}
+
+console.log(myReduce([1,2,3,4], (a,b)=>a+b, 0));
+
+
+
+
+
+
+
+
 
 
 
