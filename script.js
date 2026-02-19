@@ -300,6 +300,13 @@ console.log(shallow);
 
 
 
+let deep = JSON.parse(JSON.stringify(company));
+deep[0].details.city = "Chicago";
+
+console.log(company);
+console.log(deep);
+
+
 
 
 
