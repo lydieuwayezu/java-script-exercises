@@ -220,6 +220,27 @@ console.log(gameBoard[0][2]);
 
 
 
+let sum = 0;
+
+for(let i=0;i<gameBoard.length;i++){
+  for(let j=0;j<gameBoard[i].length;j++){
+    console.log(gameBoard[i][j]);
+    sum += gameBoard[i][j];
+  }
+}
+
+console.log("Sum:", sum);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
